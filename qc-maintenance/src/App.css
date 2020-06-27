@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1 {
+  text-align: center;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 80px;
+  font-size: 60px;
+}
+body{
+  text-align: center; 
+  background-color:#dbd2d2f1;
+}
+form {
+border: 16px solid #f1f1f1 ;
+border-radius: 15px 15px 15px 15px;
+width: 50%;
+display: inline-block;
+margin-top: 80px;
+background-color: #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 2px solid #ccc;
+box-sizing: border-box;
+font-size: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+background-color: #278ca5;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+font-size: 20px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+padding: 16px;
+font-family: 'Raleway', sans-serif;
+font-size: 25px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+  display: block;
+  float: none;
+}
+.cancelbtn {
+  width: 100%;
+  
+}
+}
+ 
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+.row {
+  font-size: 30px;
+  padding: 30px 15px;
+  background-color: #bdbabaf1;
+  border: 1px solid #d6d1d1;
+
+}
+
+.table{
+  width: 40%;
+  border: 1px solid black;
+  margin: 30px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #ccc;
+}
+ 
+.tabletitle {
+  text-align: left;
+  margin: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  border: 3px solid #b8afaf;
+  border-radius: 10px;
+  width: 40%;
+  padding-left: 5px;
+}
